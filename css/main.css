@@ -107,6 +107,10 @@ a {
     text-align: left !important;
 }
 
+.rightText{
+    text-align: right !important;
+}
+
 .projectDescription{
     width: 95%;
     margin-left: auto;
@@ -178,7 +182,7 @@ a {
 }
 
 .marginRight20{
-    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .marginLeft50{
@@ -205,17 +209,22 @@ a {
     background-color: #383838;
     width: 100%;
     margin-top: 2.5%;
+    bottom: 0;
 }
 
 @media (max-width: 50em){
     .projectDescription{
         width: 100%;
+        margin-left: 1%;
+        margin-right: 1%;
     }
     .ViewProjectButton{
         width: 95%;
     }
     .projectName{
         width: 100%;
+        margin-left: 1%;
+        margin-right: 1%;
     }
     .projectImage{
         width: 100%;
@@ -228,7 +237,11 @@ a {
     }
     .leftLine{
         border-right: none;
+        margin-left: 1%;
+        margin-right: 1%;
     }
-
-
+    .marginLeft50{
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

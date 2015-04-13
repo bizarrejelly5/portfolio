@@ -17,6 +17,10 @@
 	text-align: left !important;
 }
 
+.col-5of10Nav{
+	width: 50%;
+}
+
 .col-2of10{
 	width: 20%;
 }
