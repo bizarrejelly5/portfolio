@@ -1,0 +1,234 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #4b4848; 
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+h1, h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+h3, h4{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: black;
+}
+
+a {
+	text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Header*/
+.headerBackground{
+    background-color: #383838;
+    width: 100%;
+    position: fixed;
+}
+.headerCopy{
+    background-color: #383838;
+}
+
+.teal, .tealClick{
+    color: #009688;
+}
+
+.tealClick:hover{
+    color: #9fb336;
+}
+
+.headerTealAbout {
+    color: #009688;
+    margin-left: -20%;
+}
+
+.headerTealResume{
+    color: #009688;
+    margin-right: -20%;
+}
+
+.headerTealResume:hover, .headerTealAbout:hover {
+    color: #9fb336;
+}
+
+.whiteText{
+    color: white;
+    text-align: center;
+}
+
+.nameHover:hover{
+    color: #4CAF50;
+}
+
+.col-3of10AboutResume{
+    width: 30%;
+}
+.col-3of10Name{
+    width: 40%;
+}
+
+.shortAbout{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Projects*/
+.projectName{
+    width: 100%;
+    text-align: center;
+}
+
+.projectImage{
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
+.cover{
+    max-width: 100%;
+    height: auto;
+}
+
+.projectImageGrid{
+    max-width: 320px;
+    height: auto;
+}
+
+.centerText{
+    text-align: center;
+}
+
+.leftText{
+    text-align: left !important;
+}
+
+.projectDescription{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectType{
+    text-align: center;
+}
+
+.centerButton{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ViewProjectButton{
+    border: 2px solid #009688;
+    width: 20%;
+}
+
+.ViewProjectButton:hover{
+    border: 2px solid #9fb336;
+}
+
+.underline98{
+    margin-top: 2%;
+    border-bottom: 2px solid #009688;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.underline50{
+    margin-top: 2%;
+    border-bottom: 2px solid #009688;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.underline60{
+    margin-top: 2%;
+    border-bottom: 2px solid #009688;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+}
+
+.textUnderline{
+    text-decoration: underline;
+}
+
+/*Projects*/
+.marginLeft{
+    margin-left: 20%;
+}
+
+.marginLeft10{
+    margin-left: 10%;
+}
+
+.marginLeft5{
+    margin-left: 5%;
+}
+
+.marginRightL{
+    margin-left: 10%;
+}
+
+.marginRight20{
+    margin-left: 20%;
+}
+
+.marginLeft50{
+    margin-left: 50%;
+}
+
+.marginLeft1{
+    margin-left: 1%;
+}
+
+.margin0{
+    margin: 0;
+}
+.margin5{
+    margin: 5%;
+}
+
+.leftLine{
+    border-right: 2px solid #009688;
+}
+
+/*Footer*/
+.footerBackground{
+    background-color: #383838;
+    width: 100%;
+    margin-top: 2.5%;
+}
+
+@media (max-width: 50em){
+    .projectDescription{
+        width: 100%;
+    }
+    .ViewProjectButton{
+        width: 95%;
+    }
+    .projectName{
+        width: 100%;
+    }
+    .projectImage{
+        width: 100%;
+    }
+    .marginLeft5{
+        margin: 0;
+    }
+    .marginLeft{
+        margin: 0;
+    }
+    .leftLine{
+        border-right: none;
+    }
+
+
+}
